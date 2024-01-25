@@ -15,5 +15,11 @@ Monitor do estado do buses do z80 com um arduino mega
 Avaliação do estado dos z80 disponiveis
 Montagem de numa bb do z80 e de uma rom 28c16 (com um output e jp para o inicio). Funcionou.
 Teste de um circuito de 2 digitos de 7 segmentos controlado por um GAL22v10d (funcional, mas necessita de um buffer para o databus)
-Tentativa de construção do terceiro prototipo
-Avaliação do estado dos z80 disponiveis
+Inicio da construção do terceiro prototipo
+Placa base para inserir placas
+Placa com z80 e rom 27c512 (funcional)
+Metodo para testar o ACIA MC68b50
+
+
+
+
