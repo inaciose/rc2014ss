@@ -10,6 +10,7 @@ Segunda unidade deixa de funcionar (fui incapaz de perceber porque)
 Fazer uma descrição mais pormenorizada 
 
 Segunda fase
+2024-01
 Tenatativa de perceber o que está mal no avariado (abandonada)
 Monitor do estado do buses do z80 com um arduino mega
 Avaliação do estado dos z80 disponiveis
