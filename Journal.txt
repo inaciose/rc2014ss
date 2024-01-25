@@ -1,0 +1,19 @@
+RC2014 cam/cnc 3018
+
+Primeira fase
+
+Execução da primeira unidade (continua funcional)
+Execução da segunda unidade
+Segunda unidade deixa de funcionar (fui incapaz de perceber porque)
+
+
+Fazer uma descrição mais pormenorizada 
+
+Segunda fase
+Tenatativa de perceber o que está mal no avariado (abandonada)
+Monitor do estado do buses do z80 com um arduino mega
+Avaliação do estado dos z80 disponiveis
+Montagem de numa bb do z80 e de uma rom 28c16 (com um output e jp para o inicio). Funcionou.
+Teste de um circuito de 2 digitos de 7 segmentos controlado por um GAL22v10d (funcional, mas necessita de um buffer para o databus)
+Tentativa de construção do terceiro prototipo
+Avaliação do estado dos z80 disponiveis
