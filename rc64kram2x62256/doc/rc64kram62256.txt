@@ -1,4 +1,6 @@
 Placa semelhante aé descrita no rc2014.co.uk
+Feita 3018
+
 
 Jumpers de configuração
 J1 - Entrada PAGE (quando não está disponivel, ligar VCC)
