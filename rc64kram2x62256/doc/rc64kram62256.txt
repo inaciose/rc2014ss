@@ -1,9 +1,39 @@
 Placa semelhante aé descrita no rc2014.co.uk
 
-Configuração
+Jumpers de configuração
+J1 - Entrada PAGE (quando não está disponivel, ligar VCC)
+G = gnd
+P = Page
+V = VCC (5V)
+I = imput sinal page
+
+Pela ordem da placa (com os pinos para baixo)
+         GPV
+Sem page 0==
+com page 0I0
+
+J1+J2+J3 - Configuração do endereço inicial
 
 SA   ROMS RAMS        qL3   qL4   qLg
 1000 4K   28K - 60K   ==0   ==0   ==0
 2000 8K   24K - 56K   0==   ==0   ==0
 4000 16K  16K - 48K   XXX   0==   ==0
 0000      32K - 64K   XXX   XXX   0==
+
+Pela ordem da placa (com os pinos para baixo)
+
+SA 0000 1000 2000 4000
+J1 ==0  0==  XXX  XXX
+J2 ==0  ==0  0==  XXX
+J3 ==0  ==0  ==0  ===
+RS 0    4K   8K   16K
+MS 32K  28K  24K  16K
+MT 64K  60K  56K  48K
+
+J4 - seleção do modo page ou normal
+O modo page, para funcionar adequadamente implica a existencia da entrada do sinal no J0
+
+Pela ordem da placa (com os pinos para baixo)
+                    PLN
+Normal (sem page) 0== 
+Com page          ==0
