@@ -16,10 +16,22 @@ Monitor do estado do buses do z80 com um arduino mega
 Avaliação do estado dos z80 disponiveis
 Montagem de numa bb do z80 e de uma rom 28c16 (com um output e jp para o inicio). Funcionou.
 Teste de um circuito de 2 digitos de 7 segmentos controlado por um GAL22v10d (funcional, mas necessita de um buffer para o databus)
-Inicio da construção do terceiro prototipo
-Placa base para inserir placas
-Placa com z80 e rom 27c512 (funcional)
-Metodo para testar o ACIA MC68b50
+Método para testar o ACIA MC68b50 (tentativa falhada com arduino mega)
+Inicio da construção do terceiro computador
+- Placa base para inserir placas
+- Placa com z80 e rom 27c512 (funcional)
+Suspeitas que o poblema do segundo estava na placa do processador.
+- Feita uma nova placa (perfurada) do z80 (espaço para relógio e reset) (funcional)
+Colocação do segundo computador a funcionar
+- Z80 (perf.1)
+- MC68B50 (sem relógio) (funcional)
+- RAM 32K (perf) (funcional)
+- ROM 8K 28C64 (funcional)
+- Clock (perf.1, pequeno) (funcional)
+Também verifiquei que:
+- MC68B50 (perf. com relógio) (funcional)
+- ROM 2K 28C16 (funcional)
+
 
 
 
