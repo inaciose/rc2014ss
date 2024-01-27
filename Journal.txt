@@ -31,6 +31,12 @@ Colocação do segundo computador a funcionar
 Também verifiquei que:
 - MC68B50 (perf. com relógio) (funcional)
 - ROM 2K 28C16 (funcional)
+Colocação do terceiro computador a funcionar
+- Placa com z80 e rom 27c512 (funcional)
+- RAM 64K (funcional) (prep. doc. config)
+- MC68B50 (perf. com relógio) (funcional)
+- Clock (perf.1, pequeno) (funcional)
+
 
 
 
