@@ -1,0 +1,11 @@
+Unit 1
+
+V.1
+- Base 
+- Placa com Z80
+- ROM 8K AT28C64
+- RAM 32K
+- MC68B50 (sem relógio) 57600
+- I/O
+- Clock 3.684 (perf.)
+
