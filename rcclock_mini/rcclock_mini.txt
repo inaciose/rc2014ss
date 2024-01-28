@@ -1,0 +1,15 @@
+Pequeno modulo, muito simples, em perfboard, 5 pinos (apenas 4 deles ligados)
+
+Funcionalidades
+- Reset
+- Clock de 3.684G
+
+Pinos
+
+Placa com os pinos para baixo
+
+C = clock
+R = reset
+N = não ligado
+V = VCC 5V
+G = GND
