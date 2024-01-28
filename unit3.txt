@@ -1,11 +1,23 @@
 
 Unit 3
 
-- Base longa com encaixe para placa na horizontal na parte trazeria.
-- Placa com z80 e rom 27c512 (funcional)
-- RAM 64K (funcional) (prep. doc. config)
-- MC68B50 (perf. com relógio) (funcional)
-- Clock (perf.1, pequeno) (funcional)
+
+v.2 
+Troca de RAM 64K por RAM32K
+- Base longa com encaixe para placa na horizontal na parte traseira.
+- Placa com z80 e rom 27c512 (perf.)
+- RAM 32K
+- MC68B50 (perf. com relógio) 
+- Clock (perf.1, pequeno)
+
+Testado com RAM 32K
+
+V.2
+- Base longa com encaixe para placa na horizontal na parte traseira.
+- Placa com z80 e rom 27c512 (perf.)
+- RAM 64K
+- MC68B50 (perf. com relógio)
+- Clock (perf, 3.684M pequeno)
 
 Testado com ROM R0000009.bin
 - Microsoft basic
