@@ -36,6 +36,7 @@ Colocação do terceiro computador a funcionar
 - RAM 64K (funcional) (prep. doc. config)
 - MC68B50 (perf. com relógio) (funcional)
 - Clock (perf.1, pequeno) (funcional)
+- Testado conf. 8K ROM + 56K RAM
 
 
 
