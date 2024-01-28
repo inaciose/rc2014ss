@@ -1,0 +1,12 @@
+
+Unit 3
+
+- Base longa com encaixe para placa na horizontal na parte trazeria.
+- Placa com z80 e rom 27c512 (funcional)
+- RAM 64K (funcional) (prep. doc. config)
+- MC68B50 (perf. com relógio) (funcional)
+- Clock (perf.1, pequeno) (funcional)
+
+Testado com ROM R0000009.bin
+- Microsoft basic
+- Small Computer monitor
