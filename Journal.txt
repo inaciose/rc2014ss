@@ -38,6 +38,15 @@ Colocação do terceiro computador a funcionar
 - Clock (perf.1, pequeno) (funcional)
 - Testado conf. 8K ROM + 56K RAM
 
+Terceira fase
+2024-02
+Abordagem á geração de video com microcontroladores
+- Avaliação do stm32f103 como terminal VGA: falhada porque o stm32 não conseguia processar a uart e gerar o sinal vga 
+- Avaliação do esp32 como terminal VGA
+- - Usando a biblioteca (bitluni/ESP32Lib) (https://github.com/bitluni/ESP32Lib)
+- - Usando a biblioteca FABGL (fdivitto/FabG) (http://www.fabglib.org/) (https://github.com/fdivitto/FabGL)
+- - Escolhi utilizar a biblioteca fabgl pois está mais desenvolvida e tem um exemplo de terminal. (tenho tido problemas com o teclado usb, nem sempre funciona)
+
 
 
 
