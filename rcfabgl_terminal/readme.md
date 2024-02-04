@@ -6,3 +6,5 @@ Terminal - Experiências com um esp32 e a biblioteca fabgl
 Problemas:
 - O teclado nem sempre funciona
 
+Extra information
+- Arduino VGA & ps2kbd
