@@ -1,1 +1,0 @@
-Método para testar o ACIA MC68b50
