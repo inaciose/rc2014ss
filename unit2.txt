@@ -1,0 +1,13 @@
+
+Unit 2
+
+V.1
+- Base com encaixe macho vertical e frontal
+- Placa com z80 (perf.) (substituição da avariada)
+- RAM 64K (RC2014 based)
+- MC68B50 (sem relógio)
+- Placa com relógio (3.2MHz ou NE55 slow clock), reset e digital output (c/ replicas em muitos endereços)
+
+Testado com ROM 0.bin
+- Small Computer monitor
+Testado com 8K ROM + 56K RAM
