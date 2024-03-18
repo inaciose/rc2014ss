@@ -3,11 +3,26 @@ RC2014 cam/cnc 3018
 Primeira fase
 
 Execução da primeira unidade (continua funcional)
+Nesta fase foi efectuada uma placa de interface serie com base no acia 6551 (uart usada co o cpu 6502) a 19200baud
+Adaptei parte de um programa monitor de modo a fazer um mini monitor de 2KB para o 6551.
+Base de trabalho: 
+- https://github.com/lmaurits/lm512
+Resultados:
+- https://github.com/inaciose/asm80/blob/main/test/zt80mon.z80
+- https://github.com/inaciose/asm80/blob/main/test/zt80mon8k.z80
+Postriomente fiz uma adaptção do scm (small computer monitor) de modo a poder usar a placa com o o acia 6551
+- https://github.com/inaciose/asm80/blob/main/scw_6551A_v0.2.0.zip
+- https://smallcomputercentral.com/small-computer-monitor/
+- https://smallcomputercentral.com/small-computer-workshop/
+
 Execução da segunda unidade
-Segunda unidade deixa de funcionar (fui incapaz de perceber porque)
-
-
+Execução da placa de memoria de 64K
+Execução da placa com o acia 60b50
+Comprei e apliquei uma spray para proteger os pcbs, foi aplicado nas duas unidades.
+Segunda unidade deixa de funcionar (fui incapaz de perceber porque, mas deve ter tido, alguma coisa a ver com o spray)
 Fazer uma descrição mais pormenorizada 
+
+
 
 Segunda fase
 2024-01
@@ -47,8 +62,12 @@ Abordagem á geração de video com microcontroladores
 - - Usando a biblioteca FABGL (fdivitto/FabG) (http://www.fabglib.org/) (https://github.com/fdivitto/FabGL)
 - - Escolhi utilizar a biblioteca fabgl pois está mais desenvolvida e tem um exemplo de terminal. (tenho tido problemas com o teclado usb, nem sempre funciona)
 
-
-
+Quarta fase
+2024-03
+Placa de armazenamento de massa em SDcard, efectuada com base no microcontrolador stm32f103
+STM firmware - https://github.com/inaciose/stm32_ard_z80sd
+SCM app (lê, escreve, lista e apaga ficheiros) - https://github.com/inaciose/asm80/blob/main/sdcard_v1.z80
+Mais detalhes: https://github.com/inaciose/rc2014ss/tree/main/rcsdcard
 
 
 
