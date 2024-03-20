@@ -43,3 +43,5 @@ https://nippur72.github.io/lm80c-emu/
 # arcade (mame)
 https://www.arcade-museum.com/game-list/M/Videogame
 
+# radio
+http://www.vk2zay.net/article/156
