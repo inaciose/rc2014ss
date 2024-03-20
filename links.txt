@@ -1,0 +1,45 @@
+Repositório genérico de links
+
+# 6502
+https://6502.co.uk/course/build-a-6502-based-computer
+
+# z80
+https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK11n&index=1
+
+
+# generic RC2014
+https://groups.google.com/g/rc2014-z80
+https://ancientcomputing.blogspot.com/2017/05/a-6502-cpu-for-rc2014-part-1.html
+https://github.com/inaciose/ancientComputingRC2014
+
+https://www.mustbeart.com/wp/2019/04/28/rc2014-remote-reset-mod/
+https://www.mustbeart.com/wp/2019/04/27/reset-mod-for-rc2014-dual-clock-and-reset-board/
+
+# sound 
+https://www.youtube.com/watch?v=-iLwi9FagFE (RC2014)
+
+# zx spectrum
+http://www.zxdesign.info/thebeginning.shtml
+https://www.youtube.com/watch?v=u8TRJXLCfQo
+
+# mass storage
+https://www.eeweb.com/82c55-chip-interfaced-with-ide-hard-drive/
+https://github.com/markt4311/MT011/blob/master/sd.asm
+
+# video
+https://nerdhut.de/2018/08/08/vga-signal-generation/
+https://code.google.com/archive/p/arduino-tvout/
+https://www.eevblog.com/forum/repair/crt-cctv-monitor-cant-sync-to-composite-signal/
+
+# keyboard
+https://telcontar.net/KBK/Cherry/docs/New%20Cherry%20electronic%20data%20entry%20keyboards%20%281971%29.pdf
+
+# fabgl
+https://forum.arduino.cc/t/fabgl-keyboard-problem/1120301/2
+
+# emuladores
+https://nippur72.github.io/lm80c-emu/
+
+# arcade (mame)
+https://www.arcade-museum.com/game-list/M/Videogame
+
