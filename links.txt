@@ -6,6 +6,8 @@ https://6502.co.uk/course/build-a-6502-based-computer
 # z80
 https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK11n&index=1
 
+# 68000
+https://www.youtube.com/watch?v=rYkr1mFQ_50
 
 # generic RC2014
 https://groups.google.com/g/rc2014-z80
@@ -45,3 +47,4 @@ https://www.arcade-museum.com/game-list/M/Videogame
 
 # radio
 http://www.vk2zay.net/article/156
+
