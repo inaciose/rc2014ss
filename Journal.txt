@@ -64,10 +64,13 @@ Abordagem á geração de video com microcontroladores
 
 Quarta fase
 2024-03
-Placa de armazenamento de massa em SDcard, efectuada com base no microcontrolador stm32f103
-STM firmware - https://github.com/inaciose/stm32_ard_z80sd
-SCM app (lê, escreve, lista e apaga ficheiros) - https://github.com/inaciose/asm80/blob/main/sdcard_v1.z80
-Mais detalhes: https://github.com/inaciose/rc2014ss/tree/main/rcsdcard
+- Placa de armazenamento de massa em SDcard, efectuada com base no microcontrolador stm32f103
+- - Ainda em desenvolvimento (falta a integração om o SCM, e testar inserido no bus sem o MCU estar alimentado a parte)
+- - STM firmware - https://github.com/inaciose/stm32_ard_z80sd
+- - SCM app (lê, escreve, lista e apaga ficheiros) - https://github.com/inaciose/asm80/blob/main/sdcard_v1.z80
+- - Mais detalhes: https://github.com/inaciose/rc2014ss/tree/main/rcsdcard
+- Conversão do tinybasic (from z80 assembly version) to rom based to ram based to be used as SCM app
+- -  https://github.com/inaciose/z80asm/tree/main/tinyBasicSCM (done. working)
 
 
 
