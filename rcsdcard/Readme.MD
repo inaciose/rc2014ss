@@ -30,7 +30,9 @@ Z80 exploration as SCM app
 - del name
 - list
 
-Gostava de ver se conseguia integrar isto no SCM. 
+# TODO (além de testar inserido numa slot?)
+
+Gostava de ver se conseguia integrar isto no SCM. Mas aparenta ser uma caminho dificil.
 
 Em alternativa existe a possibilidade de colocar na placa uma ROM, provavelmente de 2K, onde estivesse uma versão do programa de exploração. Este seria iniciado com um G HHHH.
 A placa teria que ser configuravel para poder ser usada em sistemas com ROM's de 8K e 16K endereçaveis.
@@ -38,3 +40,9 @@ A placa teria que ser configuravel para poder ser usada em sistemas com ROM's de
 Select A15, A14, A13, A12, A11
 - 8k + 2k  > 0010 0XXX XXXX XXXX
 - 16k + 2k  > 0100 0XXX XXXX XXXX
+
+Seria apenas válido para os sistemas com:
+- 32KB de RAM (a partir 8000), com ROM de 8K ou 16K
+- 8KB de RAM (a partir 4000), com ROMs de 8K
+
+Seria útil existirem uma serie de rotinas, que pudessem ser chamadas pelos programas de modo executar operações sobre ficheiros.
