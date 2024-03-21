@@ -36,5 +36,5 @@ Em alternativa existe a possibilidade de colocar na placa uma ROM, provavelmente
 A placa teria que ser configuravel para poder ser usada em sistemas com ROM's de 8K e 16K endereçaveis.
 
 Select A15, A14, A13, A12, A11
-8k + 2k  > 0010 0XXX XXXX XXXX
-8k + 2k  > 0100 0XXX XXXX XXXX
+- 8k + 2k  > 0010 0XXX XXXX XXXX
+- 16k + 2k  > 0100 0XXX XXXX XXXX
