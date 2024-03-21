@@ -1,6 +1,6 @@
 RC2014 cam/cnc 3018
 
-Primeira fase
+# Primeira fase
 
 Execução da primeira unidade (continua funcional)
 Nesta fase foi efectuada uma placa de interface serie com base no acia 6551 (uart usada co o cpu 6502) a 19200baud
@@ -23,8 +23,7 @@ Segunda unidade deixa de funcionar (fui incapaz de perceber porque, mas deve ter
 Fazer uma descrição mais pormenorizada 
 
 
-
-Segunda fase
+# Segunda fase
 2024-01
 Tenatativa de perceber o que está mal no avariado (abandonada)
 Monitor do estado do buses do z80 com um arduino mega
@@ -53,7 +52,7 @@ Colocação do terceiro computador a funcionar
 - Clock (perf.1, pequeno) (funcional)
 - Testado conf. 8K ROM + 56K RAM
 
-Terceira fase
+# Terceira fase
 2024-02
 Abordagem á geração de video com microcontroladores
 - Avaliação do stm32f103 como terminal VGA: falhada porque o stm32 não conseguia processar a uart e gerar o sinal vga 
@@ -62,7 +61,7 @@ Abordagem á geração de video com microcontroladores
 - - Usando a biblioteca FABGL (fdivitto/FabG) (http://www.fabglib.org/) (https://github.com/fdivitto/FabGL)
 - - Escolhi utilizar a biblioteca fabgl pois está mais desenvolvida e tem um exemplo de terminal. (tenho tido problemas com o teclado usb, nem sempre funciona)
 
-Quarta fase
+# Quarta fase
 2024-03
 - Placa de armazenamento de massa em SDcard, efectuada com base no microcontrolador stm32f103
 - - Ainda em desenvolvimento (falta a integração om o SCM, e testar inserido no bus sem o MCU estar alimentado a parte)
@@ -71,6 +70,8 @@ Quarta fase
 - - Mais detalhes: https://github.com/inaciose/rc2014ss/tree/main/rcsdcard
 - Conversão do tinybasic (from z80 assembly version) to rom based to ram based to be used as SCM app
 - -  https://github.com/inaciose/z80asm/tree/main/tinyBasicSCM (done. working)
-
+- instalação do z88dk recorrendo ao docker (para compilar C para o Z80)
+- Aprendizagem basica, execução de programa teste para o RC2014 Z80 com SCM (SMC app) e respectivo Makefile e script para compilar no docker.
+-- ver: https://github.com/inaciose/z88dks/tree/main/rc2014testb
 
 
