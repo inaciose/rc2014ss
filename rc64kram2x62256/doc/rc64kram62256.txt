@@ -24,6 +24,7 @@ SA   ROMS RAMS        qL3   qL4   qLg
 
 Pela ordem da placa (com os pinos para baixo)
 
+Creio que esta está mal
 SA 0000 1000 2000 4000
 J1 ==0  0==  XXX  XXX
 J2 ==0  ==0  0==  XXX
@@ -31,6 +32,16 @@ J3 ==0  ==0  ==0  ===
 RS 0    4K   8K   16K
 MS 32K  28K  24K  16K
 MT 64K  60K  56K  48K
+
+Creio que esta está bem
+SA 0000 1000 2000 4000
+J1 XXX  ==0  0==  XXX
+J2 XXX  ==0  ==0  0==
+J3 0==  ==0  ==0  ==0
+RS 0    4K   8K   16K
+ML 0K   28K  24K  16K (ram memory low)
+MH 32K  32K  32K  32K (ram memory high)
+MT 64K  60K  56K  48K (ram total, 64K only if paged, else 32K ??)
 
 J4 - seleção do modo page ou normal
 O modo page, para funcionar adequadamente implica a existencia da entrada do sinal no J0
