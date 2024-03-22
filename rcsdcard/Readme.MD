@@ -37,9 +37,16 @@ Gostava de ver se conseguia integrar isto no SCM. Mas aparenta ser uma caminho d
 Em alternativa existe a possibilidade de colocar na placa uma ROM, provavelmente de 2K, onde estivesse uma versão do programa de exploração. Este seria iniciado com um G HHHH.
 A placa teria que ser configuravel para poder ser usada em sistemas com ROM's de 8K e 16K endereçaveis.
 
-Select A15, A14, A13, A12, A11
-- 8k + 2k  > 0010 0XXX XXXX XXXX
+Select: A15, A14, A13, A12, A11
+- 8k + 2k   > 0010 0XXX XXXX XXXX
 - 16k + 2k  > 0100 0XXX XXXX XXXX
+
+as entradas A14 e A13 no decoder teriam de ser precedidas, cada uma delas por um jumper, que as liga-se ao Axx ou a GND. Para:
+- 8k + 2K  > 0 J0 JA13 0 0
+- 16k + 2k > 0 JA14 J0 0 0
+
+Um jumper para simplesmente fazer o disable da ROM. Ou seja o código de exploração estará noutra ROM ou será carregado para a RAM.
+Uma entrada para PAGE OUT da ROM interna, ao mesmo tempo que a ROM normal. Não faz sentido porque a board é incompativel com a RAM 64K?
 
 Seria apenas válido para os sistemas com:
 - 32KB de RAM (a partir 8000), com ROM de 8K ou 16K
