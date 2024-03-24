@@ -72,6 +72,10 @@ Abordagem á geração de video com microcontroladores
 - -  https://github.com/inaciose/z80asm/tree/main/tinyBasicSCM (done. working)
 - instalação do z88dk recorrendo ao docker (para compilar C para o Z80)
 - Aprendizagem basica, execução de programa teste para o RC2014 Z80 com SCM (SMC app) e respectivo Makefile e script para compilar no docker.
--- ver: https://github.com/inaciose/z88dks/tree/main/rc2014testb
-
-
+-- Passar variaveis entre C e asm z80
+--- https://github.com/inaciose/z88dks/tree/main/mixasmc1
+--- https://github.com/inaciose/z88dks/tree/main/mixasmc2
+-- Conpilar para rc2014
+--- https://github.com/inaciose/z88dks/tree/main/rc2014testb
+-- RC2014 & SCM api calls
+--- https://github.com/inaciose/z88dks/tree/main/rc2014scmapi
