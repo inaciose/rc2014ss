@@ -17,12 +17,18 @@ https://github.com/inaciose/ancientComputingRC2014
 https://www.mustbeart.com/wp/2019/04/28/rc2014-remote-reset-mod/
 https://www.mustbeart.com/wp/2019/04/27/reset-mod-for-rc2014-dual-clock-and-reset-board/
 
+https://github.com/RC2014Z80/RC2014-BASIC-Programs
+
 # sound 
 https://www.youtube.com/watch?v=-iLwi9FagFE (RC2014)
 
 # zx spectrum
 http://www.zxdesign.info/thebeginning.shtml
 https://www.youtube.com/watch?v=u8TRJXLCfQo
+
+# MSX
+https://hackaday.io/project/190408-msx-on-rc2014
+https://hackaday.io/project/190408/instructions
 
 # mass storage
 https://www.eeweb.com/82c55-chip-interfaced-with-ide-hard-drive/
