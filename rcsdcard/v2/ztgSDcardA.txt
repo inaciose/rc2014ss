@@ -1,7 +1,7 @@
 Name     ztgSDcardA ;
 PartNo   00 ;
 Date     31/03/2024 ;
-Revision 01 ;
+Revision 02 ;
 Designer Engineer ;
 Company  none ;
 Assembly None ;
@@ -35,8 +35,17 @@ PIN	19 = G;
 PIN	18 = G2B;
 PIN	17 = G1;
 
+PIN	16 = NU1;
+PIN	15 = NU2;
+PIN	14 = NU3;
+
+
 /* *************** EQUATIONS *********************/
 
 G = MREQ_L # RD_L # PAGE;
 G2B = A1 # A2 # A3 # A4 # A5 # A7;
 G1 = M1_L & A6;
+
+NU1 = 'b'0;
+NU2 = 'b'0;
+NU3 = 'b'0;
