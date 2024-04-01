@@ -1,0 +1,42 @@
+Name     ztgSDcardA ;
+PartNo   00 ;
+Date     31/03/2024 ;
+Revision 01 ;
+Designer Engineer ;
+Company  none ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* ztgsdcard Decoder A */
+
+/* *************** INPUT PINS *********************/
+PIN	1 = A1;
+PIN	2 = A2;
+PIN	3 = A3;
+PIN	4 = A4;
+PIN	5 = A5;
+PIN	6 = A6;
+PIN	7 = A7;
+
+/* PIN	12     = gnd */ 
+
+PIN	23 = M1_L;
+PIN	22 = MREQ_L;
+PIN	21 = RD_L;
+PIN	20 = PAGE;
+
+
+
+/* *************** OUTPUT PINS *********************/
+/* PIN 24     = vcc */ 
+                       
+PIN	19 = G;
+PIN	18 = G2B;
+PIN	17 = G1;
+
+/* *************** EQUATIONS *********************/
+
+G = MREQ_L # RD_L # PAGE;
+G2B = A1 # A2 # A3 # A4 # A5 # A7;
+G1 = M1_L & A6;
