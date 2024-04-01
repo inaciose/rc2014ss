@@ -1,0 +1,49 @@
+Name     ztgSDcardB ;
+PartNo   00 ;
+Date     31/03/2024 ;
+Revision 01 ;
+Designer Engineer ;
+Company  none ;
+Assembly None ;
+Location  ;
+Device   g22v10 ;
+
+/* ztgsdcard Decoder B */
+
+/* *************** INPUT PINS *********************/
+PIN	1 = Y2;
+PIN	2 = Y3;
+PIN	3 = Y4;
+PIN	4 = Y5;
+/*
+PIN	5 = PB4;
+PIN	6 = PB10;
+PIN	7 = A7;
+PIN	8 = M1_L;
+*/
+PIN	9 = A15;
+PIN	10 = A1D;
+PIN	11 = A1S;
+
+PIN	19 = PB4;
+PIN	18 = PB10;
+
+/* PIN	12     = gnd */ 
+
+/* *************** OUTPUT PINS *********************/
+/* PIN 24     = vcc */ 
+                       
+PIN	23 = OE_L;
+PIN	22 = WAIT_L;
+PIN	21 = E_L;
+PIN	14 = PB11;
+
+
+
+/* *************** EQUATIONS *********************/
+IPB11 = Y2 & Y3 & Y4 & Y5;
+ 
+PB11 = IPB11;
+WAIT_L = IPB11 # PB4;
+OE_L = IPB11# PB10;
+E_L = A15 # A1D # !A1S;
