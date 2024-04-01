@@ -8,6 +8,21 @@ Replace:
 74LS21 x 1
 74LS32 x 3
 
+Legend:
+> output set to zero
+- input not used (set to gnd)
+G = ROM_G_L
+E_L = ROM_E_L
+G1 = 138_G1
+G2B = 138_G2B
+A1D = Direct Address signal (A13 or A14)
+A1S = To be negated Address signal (A13 or A14)
+
+PB4 - MCU_PB4
+PB10 - MCU_PB10
+PB11 - MCU_PB11
+
+Yx = 138_Yx
 
 - ztgSDcardA.txt
 - ztgSDcardB.txt
@@ -31,16 +46,16 @@ GND
 
 Start at pin 24 down
 VCC
-M1_L
-MREQ_L
-RD_L
-PAGE
+M1_L (i)
+MREQ_L (i)
+RD_L (i)
+PAGE (i)
 G
 G2B
 G1
--
--
--
+>
+>
+>
 -
 
 
@@ -65,12 +80,12 @@ VCC
 OE_L
 WAIT_L
 E_L
--
--
--
--
--
--
+PB4 (i)
+>
+>
+>
+>
+PB10 (i)
 PB11
 -
 
