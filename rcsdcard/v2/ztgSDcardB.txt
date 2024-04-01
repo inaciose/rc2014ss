@@ -16,19 +16,19 @@ PIN	2 = Y3;
 PIN	3 = Y4;
 PIN	4 = Y5;
 /*
-PIN	5 = PB4;
-PIN	6 = PB10;
-PIN	7 = A7;
-PIN	8 = M1_L;
+PIN	5 = aaa;
+PIN	6 = aaa;
+PIN	7 = aaa;
+PIN	8 = aaa;
 */
 PIN	9 = A15;
 PIN	10 = A1D;
 PIN	11 = A1S;
 
-PIN	19 = PB4;
-PIN	18 = PB10;
-
 /* PIN	12     = gnd */ 
+
+PIN	20 = PB4;
+PIN	15 = PB10;
 
 /* *************** OUTPUT PINS *********************/
 /* PIN 24     = vcc */ 
@@ -38,8 +38,11 @@ PIN	22 = WAIT_L;
 PIN	21 = E_L;
 PIN	14 = PB11;
 
-
-
+PIN	19 = NU1;
+PIN	18 = NU2;
+PIN	17 = NU3;
+PIN	16 = NU4;
+ 
 /* *************** EQUATIONS *********************/
 IPB11 = Y2 & Y3 & Y4 & Y5;
  
@@ -47,3 +50,8 @@ PB11 = IPB11;
 WAIT_L = IPB11 # PB4;
 OE_L = IPB11# PB10;
 E_L = A15 # A1D # !A1S;
+
+NU1 = 'b'1;
+NU2 = 'b'0;
+NU3 = 'b'1;
+NU4 = 'b'1;
