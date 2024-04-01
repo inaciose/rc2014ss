@@ -1,7 +1,7 @@
 Name     ztgSDcardB ;
 PartNo   00 ;
 Date     31/03/2024 ;
-Revision 01 ;
+Revision 02 ;
 Designer Engineer ;
 Company  none ;
 Assembly None ;
@@ -51,7 +51,7 @@ WAIT_L = IPB11 # PB4;
 OE_L = IPB11# PB10;
 E_L = A15 # A1D # !A1S;
 
-NU1 = 'b'1;
+NU1 = 'b'0;
 NU2 = 'b'0;
-NU3 = 'b'1;
-NU4 = 'b'1;
+NU3 = 'b'0;
+NU4 = 'b'0;
