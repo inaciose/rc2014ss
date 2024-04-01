@@ -1,0 +1,77 @@
+# ztgSDcardGALs
+
+Added on v2 (with ROM) to minimize space and connections.
+
+Replace:
+
+74LS04 x 1
+74LS21 x 1
+74LS32 x 3
+
+
+- ztgSDcardA.txt
+- ztgSDcardB.txt
+
+
+# ztgSDcardA Pin
+
+Start at pin 1 up
+A1
+A2
+A3
+A4
+A5
+A6
+A7
+-
+-
+-
+-
+GND
+
+Start at pin 24 down
+VCC
+M1_L
+MREQ_L
+RD_L
+PAGE
+G
+G2B
+G1
+-
+-
+-
+-
+
+
+# ztgSDcardB Pin
+
+Start at pin 1 up
+Y2
+Y3
+Y4
+Y5
+-
+-
+-
+-
+A15
+A1D
+A1S
+GND
+
+Start at pin 24 down
+VCC
+OE_L
+WAIT_L
+E_L
+-
+-
+-
+-
+-
+-
+PB11
+-
+
+
