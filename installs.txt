@@ -12,3 +12,37 @@ Run dosbox
 
 Mount the folder inside dosbox
 - mount c /home/<username>/dosboxc
+
+
+
+# wincupl with wine
+
+Install wine
+-sudo apt install wine
+
+Install for winetricks
+- sudo apt-get install cabextract
+
+Install winetricks
+- sudo apt install winetricks
+
+Run 
+- winetricks mfc40
+
+Download wincuple
+- https://www.microchip.com/en-us/products/fpgas-and-plds/spld-cplds/pld-design-resources
+
+Unzip the file awincupl.exe
+
+Install wincupl
+- wine awincupl.exe
+
+Follow the install proccess. (accept defaults)
+
+Insert the code 60008009
+
+run wincuple
+wine  ~/.wine/drive_c/Wincupl/WinCupl/Wincupl.exe
+
+If close
+- winetricks mfc40
