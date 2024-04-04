@@ -1,0 +1,14 @@
+# TASM turbo assembler (for msbasic)
+sudo apt install dosbox
+
+Download TASM31 from:
+- https://github.com/feilipu/NASCOM_BASIC_4.7
+
+Copy it for a folder in home
+ex: /home/<username>/dosboxc
+
+Run dosbox
+- dosbox
+
+Mount the folder inside dosbox
+- mount c /home/<username>/dosboxc
