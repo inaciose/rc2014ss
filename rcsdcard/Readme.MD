@@ -1,4 +1,4 @@
-RCsdCard - MassStorage for RC2014 computers
+# RCsdCard - MassStorage for RC2014 computers
 Done in perfboard (8*12cm)
 
 Porta de status/command: 0x40
@@ -22,19 +22,25 @@ SCM app (lê, escreve, lista e apaga ficheiros)
 
 https://github.com/inaciose/asm80/blob/main/sdcard_v1.z80
 
-Preparada para origem em 0x8000 (32K mem)
-
-Após enviar o HEX com copypaste para o command line do SCM, executar g 8000
-
-O programa ocupa 0x4FF bytes (em hex), por isso as apps a serem lidas por este programa devem estar com a origem em 0x8500.
-
 Z80 exploration as SCM app
 - load name hexaddr
 - save name hexaddr hexlen
 - del name
 - list
 
-# TODO (além de testar inserido numa slot?)
+# v1 - stm32, ls138, ls32 x2, ls21 & ls245 (no ROM)
+Preparada para origem em 0x8000 (32K mem)
+
+Após enviar o HEX com copypaste para o command line do SCM, executar: g 8000
+
+O programa ocupa 0x4FF bytes (em hex), por isso as apps a serem lidas por este programa devem estar com a origem em 0x8500.
+
+# v2 - stm32, ls245, 27c515, gal22v10d x2 (have ROM)
+work the same way as v1, but driver (and cli) is in rom at 2000 (8k ROM, from 2000 to 3FFF)
+executar: g 2000
+
+
+# TODO (além de testar inserido numa slot?), v2 testada numa slot.
 
 Gostava de ver se conseguia integrar isto no SCM. Mas aparenta ser uma caminho dificil.
 
