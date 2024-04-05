@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-02-26T12:39:35Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "rcio_v1"
+        },
+        "Owner": "Sergio Inacio <sergio.inacio@ua.pt>",
+        "Size": {
+            "X": 148.57,
+            "Y": 89.84
+        }
+    }
+}

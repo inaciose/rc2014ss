@@ -1,0 +1,11 @@
+Partlist exported from /home/inaciose/EAGLE/projects/rc2014ss/rcserial60b50ttl/rcserial60b50ttl.sch at 22/02/22 12:45
+
+Qty Value   Device          Package      Parts      Description                                                                                                     MF              MPN     OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX
+1           6850            DIL24        IC1        MICROCONTROLLER/MEMORY DEVICE                                                                                   NTE ELECTRONICS NTE6850 4899775    31C2457   0                     
+2           C-EU050-025X075 C050-025X075 C2, C3     CAPACITOR, European symbol                                                                                                                                   29         C          
+1           CONN_40OFFSET   1X40_OFFSET  J1         Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections                                                                    
+2           PINHD-1X2       1X02         J3, JP2    PIN HEADER                                                                                                                                                   98                    
+1           PINHD-1X6       1X06         JP1        PIN HEADER                                                                                                                                                   79                    
+1   1K      R-EU_0204/7     0204/7       R4         RESISTOR, European symbol                                                                                                                                    79         R          
+3   2K2     R-EU_0204/7     0204/7       R1, R2, R3 RESISTOR, European symbol                                                                                                                                    79         R          
+1   74LS04N 74LS04N         DIL14        IC3        Hex INVERTER                                                                                                                                                 0                     

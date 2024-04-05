@@ -1,3 +1,0 @@
-Placa com 2 digitos 7seg. Entrada byte, exibe em Hex.
-Feito com GAL22v10D
-Devem ser colocados diodos nas entradas.

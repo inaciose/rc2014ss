@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2022-02-26T12:38:41Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "rc62256ram"
+        },
+        "Owner": "Sergio Inacio <sergio.inacio@ua.pt>",
+        "Size": {
+            "X": 127.615,
+            "Y": 85.395
+        }
+    }
+}
