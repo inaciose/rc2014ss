@@ -1,0 +1,36 @@
+# Version 2 : ROM added
+
+Video (screen capture) for a short use demo.
+- https://youtu.be/_yl_8PoyTJ8
+
+# using the sdcard boad
+The 'drivers' and CLI is now on ROM
+- g 2000
+
+Programs can:
+- save a memory block to file. require setting the filename, start address and file lenght at proper memory address
+- load to file to a memory block. require setting the filename, start address and geting file lenght at proper memory address
+
+There are functions available to do both tasks:
+
+int ztgsdcard_load(char *s, int start);
+void ztgsdcard_save(char *s, int start, int len);
+
+see: https://github.com/inaciose/z88dks/tree/main/ztgnotepad
+
+# TODO - Schematics
+
+# ISSUES:
+- sdcards with 32G doesnt work with the used SD library. It seems that the STM32 firmware must rebuid around SDfat.
+- the if status for each operation should be remodeled (may be when add new commands)
+- save again, with same filename, append the all file. (stm32 files are opened in append mode)
+- slow (it was not made to be quick). There is a delay time bettewn operations that may be reduced.
+- the CLI messages appear in the user programs
+- the stm32 board power... !
+- if sd if bad status inside the user programs, it needs to be handled inside the program. Now we need to issue "o 40 f" on monitor
+
+# List
+- add mkdir command
+- add rmdir command
+- add cd command, and sense of current directory
+- open file streams in C sense
