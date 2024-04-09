@@ -31,6 +31,8 @@ see: https://github.com/inaciose/z88dks/tree/main/ztgnotepad
 
 # List
 - add mkdir command
-- add rmdir command
+- add rmdir command 
+- add rn command (rename)
+- add copy command
 - add cd command, and sense of current directory
 - open file streams in C sense
