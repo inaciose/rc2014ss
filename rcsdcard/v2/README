@@ -18,21 +18,31 @@ void ztgsdcard_save(char *s, int start, int len);
 
 see: https://github.com/inaciose/z88dks/tree/main/ztgnotepad
 
-# TODO - Schematics
+# Schematics available
 
 # ISSUES:
-- sdcards with 32G doesnt work with the used SD library. It seems that the STM32 firmware must rebuid around SDfat.
-- the if status for each operation should be remodeled (may be when add new commands)
+- sdcards with 32G doesnt work with the used SD library. It seems that the STM32 firmware must rebuid around SDfat. (worked out, need to test)
+- the if status for each operation should be remodeled (may be when add new commands) (DONE)
 - save again, with same filename, append the all file. (stm32 files are opened in append mode)
-- slow (it was not made to be quick). There is a delay time bettewn operations that may be reduced.
-- the CLI messages appear in the user programs
+- slow (it was not made to be quick). There is a delay time bettewn operations that may be reduced. (PROGRESS)
+- the CLI messages appear in the user programs (IDEIA)
 - the stm32 board power... !
 - if sd if bad status inside the user programs, it needs to be handled inside the program. Now we need to issue "o 40 f" on monitor
+- need to rethinking the variable storage area (used as interface for program api)
 
 # List
-- add mkdir command
-- add rmdir command 
-- add rn command (rename)
-- add copy command
-- add cd command, and sense of current directory
-- open file streams in C sense
+- add mkdir command (DONE)
+- add rmdir command (DONE) 
+- add rn command (rename) (DONE)
+- add copy command (DONE)
+- add cd command, and sense of current directory (DONE)
+- add exist (file or directory) command (DONE)
+- add cwd (get current directory) command (DONE)
+- add reset command (DONE)
+- add sdifs (get SD card interface status) command (DONE)
+- add exist command (DONE)
+- modify list command to get a folder path as argument
+- add exit command, to exit the file manager cli (DONE)
+- add jumptable at begin to maintain stable calls to sdcard program api)
+
+- open file streams in C sense?
