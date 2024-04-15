@@ -28,16 +28,16 @@ os comandos e, d, c, a: só podem ser iniciados com o status = 00
 
 Z80 exploration as SCM app 
 + Commands 
-- load name hexaddr
-- save name hexaddr hexlen
+- load name hexaddr (load name HHHH)
+- save name hexaddr hexlen (save name HHHH HHHH)
 - del name
 - list
 - ren names named
 - copy names named
 - exist name (reply: 0 no, 1 file, 2 directory)
-- mkdir
-- rmdir
-- cd
+- mkdir name 
+- rmdir name
+- cd name
 - cwd
 - sdifs
 - reset
@@ -56,12 +56,13 @@ Z80 exploration as SCM app
 - fread HH (read byte)           int16_t 	read ()
 - fgetpos HH                     uint32_t 	curPosition () const
 - fseekset HH HHHH HHHH          bool 	seekSet (uint32_t pos)
+- fseekcur HH HHHH HHHH          bool 	seekCur (int32_t offset)
+- fseekend HH HHHH HHHH          bool 	seekEnd (int32_t offset=0)
+- frewind HH                     void 	rewind ()
+- fpeek HH                        int 	peek ()
 
 + commands to add:
-- bool 	seekCur (int32_t offset)
-- bool 	seekEnd (int32_t offset=0)
-- void 	rewind ()
-- int 	peek ()
+
 - int 	read (void *buf, size_t nbyte)
 - int 	write (const void *buf, size_t nbyte)
 - int 	write (const char *str)
