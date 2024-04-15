@@ -1,16 +1,17 @@
 # RCsdCard - MassStorage for RC2014 computers
 Done in perfboard (8*12cm)
+To be used it requires the software described below (firmware and driver)
+
+# v2 - (have ROM)
+Use: stm32, ls138, ls245, 27c515, gal22v10d x2 
+Work the same way as v1, but driver (and cli) is in rom at 2000 (8k ROM, from 2000 to 3FFF)
+executar: g 2000
 
 # v1 (no ROM)
 Use: stm32, ls138, ls32 x2, ls21 & ls245 
 Preparada para origem em 0x8000 (32K mem)
 Após enviar o HEX com copypaste para o command line do SCM, executar: g 8000
 O programa (app & driver) ocupa HHHHH bytes (em hex), por isso as apps a serem lidas por este programa devem estar com a origem em 0x8000 + HHHHH.
-
-# v2 - (have ROM)
-Use: stm32, ls138, ls245, 27c515, gal22v10d x2 
-Work the same way as v1, but driver (and cli) is in rom at 2000 (8k ROM, from 2000 to 3FFF)
-executar: g 2000
 
 # RCsdCard (ztgSDcard) interface description
 
@@ -36,7 +37,7 @@ Exemplos de commando x:
 Os comandos e, d, c, a: só podem ser iniciados com o status = 00
 
 
-# Software (firmware and drivers)
+# Required software (firmware and driver)
 
 Firmware 
 - Plataformio, arduino maple framework (usb) - https://github.com/inaciose/stm32f103_ztgsdcard2
