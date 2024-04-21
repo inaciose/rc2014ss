@@ -75,9 +75,13 @@ Abordagem á geração de video com microcontroladores
 -- Passar variaveis entre C e asm z80
 --- https://github.com/inaciose/z88dks/tree/main/mixasmc1
 --- https://github.com/inaciose/z88dks/tree/main/mixasmc2
--- Conpilar para rc2014
+-- Compilar para rc2014
 --- https://github.com/inaciose/z88dks/tree/main/rc2014testb
 -- RC2014 & SCM api calls
 --- https://github.com/inaciose/z88dks/tree/main/rc2014scmapi
 - ZTGsdcard Z80 RC2014 SCM app converted from asmz80.com to z80asm
-
+2024-04
+- Versão com ROM da placa de armazenamento em massa em sd card
+- Nova versão do STM Firmware baseada na lib SdFat
+-- https://github.com/inaciose/stm32f103_ztgsdcard2
+- desenvolvimento das funcionalidaes (em software) de utilização do SDcard
