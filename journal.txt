@@ -34,7 +34,7 @@ Método para testar o ACIA MC68b50 (tentativa falhada com arduino mega)
 Inicio da construção do terceiro computador
 - Placa base para inserir placas
 - Placa com z80 e rom 27c512 (funcional)
-Suspeitas que o poblema do segundo estava na placa do processador.
+Suspeitas que o problema do segundo estava na placa do processador.
 - Feita uma nova placa (perfurada) do z80 (espaço para relógio e reset) (funcional)
 Colocação do segundo computador a funcionar
 - Z80 (perf.1)
@@ -84,4 +84,7 @@ Abordagem á geração de video com microcontroladores
 - Versão com ROM da placa de armazenamento em massa em sd card
 - Nova versão do STM Firmware baseada na lib SdFat
 -- https://github.com/inaciose/stm32f103_ztgsdcard2
-- desenvolvimento das funcionalidaes (em software) de utilização do SDcard
+- desenvolvimento das funcionalidades (em software) de utilização da placa SDcard
+2024-05
+- Continuação do desenvolvimento das funcionalidades no firmware stm (v1.06_) e software z80 (v1.06_) da placa SDcard
+- Continuo com problemas de estabilidade na segunda unidade (deve existir um mau contacto em qualquer lado, pois resolve-se por tentativas precisonando as placas)
