@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK
 # 68000
 https://www.youtube.com/watch?v=rYkr1mFQ_50
 
+# video chips - mc6847
+https://pmig96.wordpress.com/2020/07/15/mc6847-test-circuit/
+
 # generic RC2014
 https://groups.google.com/g/rc2014-z80
 https://ancientcomputing.blogspot.com/2017/05/a-6502-cpu-for-rc2014-part-1.html
