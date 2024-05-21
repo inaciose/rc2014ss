@@ -88,3 +88,5 @@ Abordagem á geração de video com microcontroladores
 2024-05
 - Continuação do desenvolvimento das funcionalidades no firmware stm (v1.06_) e software z80 (v1.06_) da placa SDcard
 - Continuo com problemas de estabilidade na segunda unidade (deve existir um mau contacto em qualquer lado, pois resolve-se por tentativas precisonando as placas)
+- O firmware stm32 e software de exploração (OS em rom) para o z80, assim como a API e respectiva demo estão práticamente completos
+
