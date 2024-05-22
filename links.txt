@@ -38,9 +38,17 @@ https://www.youtube.com/watch?v=oJ486-I3IuI
 
 https://hackaday.io/project/20970-lacey-mk-i
 
+# 68000 docs
+https://www.cs.kau.se/cs/education/courses/davcdiss/Exjobb_2004/C2004-21.pdf
+http://atari.myftp.org/literatura/68k/68k.html
+http://atari.myftp.org/literatura/68k/16_32bit_Microprocessors.pdf
+
+
 # 68008
 https://hackaday.io/project/19765-big-daddy-68k/log/52995-free-running
 
+# atari
+http://atari.myftp.org/atari16bit/atari16bit.html
 
 # video chips - mc6847
 https://pmig96.wordpress.com/2020/07/15/mc6847-test-circuit/
