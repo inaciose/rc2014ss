@@ -8,6 +8,32 @@ https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK
 
 # 68000
 https://www.youtube.com/watch?v=rYkr1mFQ_50
+https://codelab.wordpress.com/category/electronics/
+http://nuclear.mutantstargoat.com/blog/
+http://nuclear.mutantstargoat.com/hw/m68kcomp1/
+https://github.com/jtsiomb/m68kcomputer
+http://www.easy68k.com/paulrsm/dg/
+https://hackaday.com/2014/03/05/hackaday-68k-blinking-a-led/
+https://hackaday.io/project/5-mc68000-computer
+https://roscopeco.com/2019/04/13/im-building-a-retro-computer/
+https://hackaday.io/project/164305-roscom68k
+https://hackaday.io/project/164305-roscom68k/log/160626-the-reset-circuit
+https://hackaday.io/project/164305-roscom68k/log/161769-the-clock-circuit
+https://hackaday.io/project/164305-roscom68k/log/162200-the-address-decoder
+https://hackaday.io/project/164305-roscom68k/log/162203-handling-the-boot-line
+https://hackaday.io/project/164305-roscom68k/log/162600-handling-the-boot-line-take-2
+https://hackaday.io/project/164305-roscom68k/log/162612-free-run-schematic
+https://www.brorson.se/2023/01/07/an-motorola-68010-project/
+https://www.brorson.se/2023/02/05/first-things-first-an-reset-circuit/
+https://github.com/jefftranter/68000
+https://github.com/jefftranter/68000/blob/master/TS2/v2/theoryofoperation.txt
+https://www.youtube.com/watch?v=oJ486-I3IuI
+https://mercurycoding.com/blog.html
+
+
+# 68008
+https://hackaday.io/project/19765-big-daddy-68k/log/52995-free-running
+
 
 # video chips - mc6847
 https://pmig96.wordpress.com/2020/07/15/mc6847-test-circuit/
