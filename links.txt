@@ -6,7 +6,7 @@ https://6502.co.uk/course/build-a-6502-based-computer
 # z80
 https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK11n&index=1
 
-# 68000
+# 68000 / 68010
 (DTACK GROUNDED - The Journal of Simple 68000 Systems)
 http://www.easy68k.com/paulrsm/dg/
 
@@ -35,6 +35,8 @@ https://github.com/jefftranter/68000/blob/master/TS2/v2/theoryofoperation.txt
 
 https://mercurycoding.com/blog.html
 https://www.youtube.com/watch?v=oJ486-I3IuI
+
+https://hackaday.io/project/20970-lacey-mk-i
 
 # 68008
 https://hackaday.io/project/19765-big-daddy-68k/log/52995-free-running
