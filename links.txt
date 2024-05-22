@@ -7,14 +7,9 @@ https://6502.co.uk/course/build-a-6502-based-computer
 https://www.youtube.com/watch?v=pNjEzovSfrY&list=PL-__ysBkGwx4rkhgj6vFoWrfl70GmK11n&index=1
 
 # 68000
-https://www.youtube.com/watch?v=rYkr1mFQ_50
-https://codelab.wordpress.com/category/electronics/
-http://nuclear.mutantstargoat.com/blog/
-http://nuclear.mutantstargoat.com/hw/m68kcomp1/
-https://github.com/jtsiomb/m68kcomputer
+(DTACK GROUNDED - The Journal of Simple 68000 Systems)
 http://www.easy68k.com/paulrsm/dg/
-https://hackaday.com/2014/03/05/hackaday-68k-blinking-a-led/
-https://hackaday.io/project/5-mc68000-computer
+
 https://roscopeco.com/2019/04/13/im-building-a-retro-computer/
 https://hackaday.io/project/164305-roscom68k
 https://hackaday.io/project/164305-roscom68k/log/160626-the-reset-circuit
@@ -23,13 +18,23 @@ https://hackaday.io/project/164305-roscom68k/log/162200-the-address-decoder
 https://hackaday.io/project/164305-roscom68k/log/162203-handling-the-boot-line
 https://hackaday.io/project/164305-roscom68k/log/162600-handling-the-boot-line-take-2
 https://hackaday.io/project/164305-roscom68k/log/162612-free-run-schematic
+
+https://www.youtube.com/watch?v=rYkr1mFQ_50
+https://codelab.wordpress.com/category/electronics/
+http://nuclear.mutantstargoat.com/blog/
+http://nuclear.mutantstargoat.com/hw/m68kcomp1/
+https://github.com/jtsiomb/m68kcomputer
+https://hackaday.com/2014/03/05/hackaday-68k-blinking-a-led/
+https://hackaday.io/project/5-mc68000-computer
 https://www.brorson.se/2023/01/07/an-motorola-68010-project/
 https://www.brorson.se/2023/02/05/first-things-first-an-reset-circuit/
 https://github.com/jefftranter/68000
-https://github.com/jefftranter/68000/blob/master/TS2/v2/theoryofoperation.txt
-https://www.youtube.com/watch?v=oJ486-I3IuI
-https://mercurycoding.com/blog.html
 
+("Design Example Using the 68000" section of the book "Microprocessor Systems Design 68000 Hardware, Software, and Interfacing", third edition, by Alan Clements)
+https://github.com/jefftranter/68000/blob/master/TS2/v2/theoryofoperation.txt
+
+https://mercurycoding.com/blog.html
+https://www.youtube.com/watch?v=oJ486-I3IuI
 
 # 68008
 https://hackaday.io/project/19765-big-daddy-68k/log/52995-free-running
