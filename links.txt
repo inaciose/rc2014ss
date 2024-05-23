@@ -30,6 +30,8 @@ https://www.brorson.se/2023/01/07/an-motorola-68010-project/
 https://www.brorson.se/2023/02/05/first-things-first-an-reset-circuit/
 https://github.com/jefftranter/68000
 
+https://myprojects77.wordpress.com/2017/09/07/first-blog-post/
+
 ("Design Example Using the 68000" section of the book "Microprocessor Systems Design 68000 Hardware, Software, and Interfacing", third edition, by Alan Clements)
 https://github.com/jefftranter/68000/blob/master/TS2/v2/theoryofoperation.txt
 
