@@ -19,13 +19,15 @@ https://hackaday.io/project/164305-roscom68k/log/162203-handling-the-boot-line
 https://hackaday.io/project/164305-roscom68k/log/162600-handling-the-boot-line-take-2
 https://hackaday.io/project/164305-roscom68k/log/162612-free-run-schematic
 
+https://github.com/jtsiomb/m68kcomputer
 https://www.youtube.com/watch?v=rYkr1mFQ_50
 https://codelab.wordpress.com/category/electronics/
 http://nuclear.mutantstargoat.com/blog/
 http://nuclear.mutantstargoat.com/hw/m68kcomp1/
-https://github.com/jtsiomb/m68kcomputer
+
 https://hackaday.com/2014/03/05/hackaday-68k-blinking-a-led/
 https://hackaday.io/project/5-mc68000-computer
+
 https://www.brorson.se/2023/01/07/an-motorola-68010-project/
 https://www.brorson.se/2023/02/05/first-things-first-an-reset-circuit/
 https://github.com/jefftranter/68000
